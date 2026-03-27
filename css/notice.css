@@ -1,0 +1,382 @@
+/* Notice styles - used across admin and student views */
+
+/* Notice styling */
+.notice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.notice-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #102542;
+    margin-bottom: 0.8rem;
+    line-height: 1.3;
+}
+
+.notice-meta {
+    font-size: 0.95rem;
+    color: #5a6475;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.notice-author {
+    font-weight: 600;
+    color: #d97706;
+}
+
+.notice-content {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    margin-bottom: 2.5rem;
+    transition: all 0.3s ease;
+    line-height: 1.7;
+}
+
+.notice-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+}
+
+.notice-attachments {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eaecf0;
+}
+
+.attachment-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #102542;
+    margin-bottom: 1.2rem;
+}
+
+.attachment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.attachment-item {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 1rem 1.2rem;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+    transition: all 0.3s ease;
+    border: 1px solid #eaecf0;
+}
+
+.attachment-item:hover {
+    background-color: #f0f2f5;
+    border-color: #d0d5dd;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.attachment-icon {
+    color: #f59e0b;
+    margin-right: 0.9rem;
+    font-size: 1.4rem;
+}
+
+.attachment-name {
+    font-weight: 500;
+    flex: 1;
+}
+
+.attachment-size {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+}
+
+.notice-stats {
+    display: flex;
+    background-color: white;
+    padding: 1.8rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    margin-bottom: 2.5rem;
+}
+
+.stat-item {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #eaecf0;
+    padding: 0 1.2rem;
+}
+
+.stat-item:last-child {
+    border-right: none;
+}
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #d97706;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.95rem;
+    color: #5a6475;
+}
+
+.notice-actions {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.btn-notice {
+    padding: 0.7rem 1.4rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-edit {
+    background-color: #f59e0b;
+    color: #1a1a2e;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-back {
+    background-color: #6c757d;
+    color: white;
+}
+
+.comments-section {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.comments-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #102542;
+    margin-bottom: 1.8rem;
+}
+
+.comment-form {
+    margin-bottom: 2.5rem;
+}
+
+.comment-input {
+    width: 100%;
+    min-height: 120px;
+    padding: 1.2rem;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 1.2rem;
+    font-family: inherit;
+    resize: vertical;
+    transition: all 0.3s ease;
+    background-color: #f9fafc;
+}
+
+.comment-input:focus {
+    outline: none;
+    border-color: #f59e0b;
+    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.15);
+    background-color: #fff;
+}
+
+.comment-list {
+    border-top: 1px solid #eaecf0;
+    padding-top: 2rem;
+}
+
+.comment-item {
+    display: flex;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eaecf0;
+}
+
+.comment-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f59e0b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin-right: 1.2rem;
+}
+
+.comment-content {
+    flex: 1;
+}
+
+.comment-author {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.comment-date {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.8rem;
+}
+
+.comment-text {
+    color: #212529;
+    line-height: 1.6;
+}
+
+.no-comments {
+    text-align: center;
+    color: #6c757d;
+    font-style: italic;
+    padding: 2.5rem 0;
+}
+
+/* Form elements for notice creation/editing */
+.form-group {
+    margin-bottom: 1.8rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    color: #102542;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #f9fafc;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #f59e0b;
+    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.15);
+    background-color: #fff;
+}
+
+textarea.form-control {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.form-select {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #f9fafc;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%235a6475' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 16px;
+}
+
+.form-select:focus {
+    outline: none;
+    border-color: #f59e0b;
+    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.15);
+    background-color: #fff;
+}
+
+.form-file {
+    position: relative;
+}
+
+.form-file-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    border: 2px dashed #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #f9fafc;
+    margin-bottom: 0.8rem;
+}
+
+.form-file-label:hover {
+    border-color: #f59e0b;
+    background-color: rgba(245, 158, 11, 0.05);
+}
+
+.form-file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.form-file-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-file-icon {
+    font-size: 2rem;
+    color: #f59e0b;
+    margin-bottom: 0.8rem;
+}
+
+.form-file-name {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+@media (max-width: 992px) {
+    .notice-stats {
+        flex-direction: column;
+    }
+    
+    .stat-item {
+        border-right: none;
+        border-bottom: 1px solid #eaecf0;
+        padding: 1.2rem 0;
+    }
+    
+    .stat-item:last-child {
+        border-bottom: none;
+    }
+    
+    .notice-actions {
+        margin-top: 1.2rem;
+        flex-wrap: wrap;
+    }
+    
+    .notice-content {
+        padding: 1.8rem;
+    }
+}
